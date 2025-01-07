@@ -1,0 +1,59 @@
+body.modal-open {
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.bg-color {
+  background-color: #0d0d0f !important;
+}
+
+h1 {
+  color: #f8f9fa;
+}
+
+.text-custom {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ee8b13;
+}
+
+#gameModal {
+  background-color: #000 !important;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+}
+
+#restartButton {
+  background-color: #ee8b13;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: #000;
+}
+
+#envio {
+  color: white;
+}
+
+#envio:hover {
+  color: white;
+  background-color: #ee8b13;
+}
+
+.foot-custom {
+  background-color: #000;
+}
+
+.profile {
+  color: white;
+}
+
+.profile:hover {
+  color: #ee8b13;
+}
